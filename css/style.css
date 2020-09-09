@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: #0d2481!important;
+}
+
+.contact-btnn{
+    color: #0d2481!important;
+}
+
+/* search css starts */
+.search-boxx{
+    margin-top: 2px;
+    margin-right: 130px;
+    background: #0d2481;
+    height: 50px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-boxx:hover{
+    background: white;
+}
+.search-boxx:hover > .search-txtt{
+    width: 180px;
+    padding: 0 6px;
+}
+
+.search-boxx:hover > .search-btnn{
+    background: #0d2481;
+}
+.search-btnn{
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #0d2481;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.search-txtt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0px;
+}
+
+/* search css ends  */
+/* navbar css ends */
+/* banner css starts */
+
+.banner{
+    width: 100%;
+    height: 86vh;
+    background-color: #dcdee1;
+    position: relative;
+}
+
+.banner-boxx{
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    width: 43%;
+    height: auto;
+    background-color: #f9f9fa;
+    border-top: 3px solid #0d2481;
+    padding: 2% 2% 2% 3%;
+}
+
+.banner-head{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.banner-dash{
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 10%;
+}
+
+.banner-btnn{
+    color: #f9f9fa;
+    background: #0d2481;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 768px) 
+  {
+    .banner-dash{
+        display: none;
+    }
+    .banner-boxx{
+        left: 10%;
+        width: 80%;
+        padding: 10px;
+    }
+    .banner-head{
+        font-size: 20px;
+    }
+    .banner-btnn{
+        font-size: 10px;
+    }
+  }
+
+
+/* banner css ends */
+/* sponsor css starts */
+
+.sponsor{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+.sponsor-img{
+    background-color: #ffffff;
+}
+.imgg img{
+    width: 100%;
+}
+
+/* sponsor css ends */
+/* services css starts */
+
+.services{
+    width: 100%;
+    height: 85vh;
+    padding: 0 90px;
+    background-color:#fff;
+}
+
+.service-left, .service-right{
+    height: 75vh;
+    padding: 0;
+    width: 100%;
+}
+
+.service-left{
+    background-color: #1e2329;
+}
+.service-right{
+    background-color: #0d2481;
+    padding: 80px;
+}
+.service-light{
+    color: #ffffff80!important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.service-list-left{
+    color: #ffffff80;  
+}
+.service-list-left{
+    list-style-position: initial;
+}
+.service-list-head{
+    color: #ffffff80;
+}
+
+.service-list-right{
+    color: #ffffff80;  
+}
+
+.service-list-item{
+    color: #ffffff80;
+}
+
+.service-list-body{
+    display: none;
+}
+
+.list-boxx1:hover .service-list-body{
+    display: block;
+}
+
+.list-boxx1:hover .service-list-head{
+    color: #fff;
+}
+
+.service-challange{
+    width: fit-content;
+    height: auto;
+    background-color: #00000030;
+    padding: 10px 25px;
+}
+
+.service-challange p{
+    color: #ffffff80;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 768px) 
+  {
+    .services{
+        padding: 0 ;
+        height: auto;
+        overflow-x: hidden;
+    }
+    /* .service-left{
+        height: auto;
+    } */
+    .service-right{
+        height: auto;
+        padding: 20px 40px;
+    }
+    .service-right h1{
+        font-size: 30px;
+    }
+  }
+/* services css ends */
+/* work css starts */
+
+.work{
+    width: 100%;
+    height: 60vh;
+    padding-left: 80px;
+    overflow-x: hidden;
+}
+.work-light{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.work1{
+
+    height: 50vh;
+    width: 85%;
+    background-color: #0d2481;
+    
+    
+}
+.work2{
+    height: 55vh;
+    width: 85%;
+    background-color: pink;
+}
+
+@media only screen and (max-width: 768px) 
+  {
+      .work{
+        height: auto;
+        padding: 15px;
+      }
+      .work1{
+          display: none;
+      }
+      .work2{
+          width: 100%;
+      }
+  }
+
+
+/* work css ends */
+/* All services css starts */
+
+.all-serv{
+    width: 100%;
+    height: 100vh;
+    padding: 100px 90px;
+}
+.all-serv .roww{
+    height: 100%;
+}
+.all-serv-left{
+    height: 100%;
+}
+.vdo-box{
+    width: 100%;
+    height: 40%;
+    background-color: black;
+}
+.card-title small{
+    font-size: 14px;
+    color: grey;
+}
+
+.all-serv-right-cat p{
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 768px) 
+  {
+    .all-serv{
+        height: auto;
+        padding: 10px;
+    }
+    .vdo-box{
+        height: 30vh;
+    }
+    .all-serv-left{
+        margin: 0!important;
+    }
+    .card-body{
+        padding: 20px!important;
+    }
+    .all-serv-response{
+        padding: 20px!important;
+    }
+  }
+/* All services css ends */
+/* foot banner css starts */
+
+.foot-banner{
+    height: 50vh;
+    padding: 80px;
+    background-color: #0d2481;
+}
+.foot-banner-content{
+    height: 20vh;
+    
+}
+
+.foot-banner-para{
+    color: #ffffff80!important;
+    font-size: 13px;
+}
+.foot-call{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot-call p{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.foot-banner-btnn{
+    color: #f9f9fa;
+    background: #173198;
+    font-size: 15px;
+}
+.foot-banner-btnn:hover{
+    color: #173198;
+    background: #f9f9fa;
+}
+
+@media only screen and (max-width: 768px) 
+  {
+    
+    .foot-banner-btnn{
+        font-size: 10px;
+    }
+    .foot-banner{
+        padding: 10px;
+        height: auto;
+
+    }
+    .foot-banner-content{
+        height: auto;
+
+    }
+    .foot-banner-content h2{
+        font-size: 25px;
+
+    }
+  }
+
+/* foot banner css ends */
+/* footer css starts */
+.foot{
+    padding: 0 90px;
+    
+}
+
+.foot-left{
+    padding:50px;
+}
+
+.foot-left-head{
+    font-size: 14px; 
+}
+
+.foot-add{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.foot-add-p{
+    font-size: 13px;
+}
+.resource-list ul{
+    list-style: none;
+}
+.resource-list h3{
+    font-size: 19px;
+}
+.resource-list ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.copyright{
+    border-top: 1px dotted black;
+    height: 10vh;
+    width: 100%;
+    font-size: 11px;
+}
+.copyright-txtt a{
+    text-decoration: none;
+    color: black;
+}
+.copyright-txtt a span{
+    color: blue;
+}
+@media only screen and (max-width: 768px) 
+  {
+      .foot{
+          padding: 10px 40px;
+      }
+  }
+/* footer css ends */
+
+
+
+
